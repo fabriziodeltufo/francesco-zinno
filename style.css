@@ -853,7 +853,7 @@ ul {
     justify-content: center;
     align-items: center;
     height: 60vh; /* Altezza piena della finestra */
-    /* width: 50vh; */
+    width: 100%;
     background-color: black; /* Sfondo scuro come nei reel */
   }
 
