@@ -608,6 +608,10 @@ ul {
   color: black;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+.socket p {
+  font-size: 22px;
 }
 
 /* ! HELPERS */
@@ -774,7 +778,6 @@ ul {
 @media (max-width: 768px) {
   .space {
     padding-top: 50px !important;
-    border-top: 1px solid grey;
   }
 
   .cover__content {
@@ -877,12 +880,8 @@ ul {
 
   /* SOCKET */
 
-  .socket {
-    display: block;
-    text-align: center;
-  }
   .socket p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   /* helpers */
