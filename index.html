@@ -31,7 +31,7 @@
             <li><a href="#video_editing">EDICIÓN VIDEO</a></li>
             <li><a href="#recent_works">MI TRABAJO</a></li>
             <li><a href="#faq">FAQ</a></li>
-            <li><a class="button" href="#contact">CONTACTAME</a></li>
+            <li id="button"><a href="#contact">CONTACTAME</a></li>
 
         </ul>
 
@@ -367,6 +367,7 @@
 
         // SCROLLING MENU TO ID
         let links = document.querySelectorAll('.header__menu li a');
+        console.log(links);
 
         links.forEach((link, i) => {
 
@@ -397,7 +398,7 @@
 
                 let selector = this.getAttribute("href");
                 let selectorElement = document.querySelectorAll(selector);
-                document.body.classList.toggle('menu-open');
+                // document.body.classList.toggle('menu-open');
 
                 window.scroll({
                     top: selectorElement[0].offsetTop,
