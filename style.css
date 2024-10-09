@@ -790,6 +790,11 @@ ul {
   .grid {
     padding: 0 10px;
   }
+
+  .grid--reverse {
+    flex-direction: column-reverse;
+  }
+
   .v-center {
     display: flex;
     justify-content: center;
@@ -821,7 +826,7 @@ ul {
   }
 
   .section-02 .text-3 {
-    font-size: 16px;
+    /* font-size: 16px; */
   }
 
   .section-04 #flowers {
