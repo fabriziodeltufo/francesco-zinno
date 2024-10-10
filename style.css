@@ -162,14 +162,15 @@ h3 a {
 }
 
 .cover__content {
-  max-width: 600px;
+  max-width: 1000px;
   margin: 0 auto;
   position: relative;
-  top: 500px;
+  top: 790px;
   color: white;
   border: 2px solid white;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px;
 }
 
 .cover__content h1 {
@@ -659,6 +660,79 @@ ul {
   width: 100%;
 }
 
+/* ! 3840 IMAC MEDIA QUERY */
+@media (min-width: 3840px) {
+  .cover__content {
+    max-width: 1250px;
+    margin: 0 auto;
+    position: relative;
+    top: 1170px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+  }
+
+  .text-0 {
+    font-size: 6rem;
+  }
+
+  .text-1 {
+    font-size: 4.5rem;
+  }
+}
+
+/* ! 1920 IMAC MEDIA QUERY */
+@media (max-width: 1920px) {
+  .cover__content {
+    max-width: 850px;
+    margin: 0 auto;
+    position: relative;
+    top: 620px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* ! 1440 MEDIA QUERY */
+@media (max-width: 1440px) {
+  .cover__content {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    top: 434px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .text-0 {
+    font-size: 4rem;
+  }
+
+  .text-1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* ! 1280  MEDIA QUERY */
+@media (max-width: 1280px) {
+  .cover__content {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    top: 413px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
 /* ! 1024 MEDIA QUERY */
 @media (max-width: 1024px) {
   .button {
@@ -774,13 +848,21 @@ ul {
 
 /* ! 768 MEDIA QUERY */
 @media (max-width: 768px) {
+  .button {
+    width: 335px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
   .space {
     padding-top: 50px !important;
   }
 
   .cover__content {
     width: 350px;
+    top: 460px;
   }
+
   .grid {
     padding: 0 10px;
   }
@@ -799,15 +881,14 @@ ul {
   /* section */
   .section-01 .text-1 {
     padding: 0 10px;
-    font-size: 1.9rem;
-    /* line-height: normal; */
-    margin: 0;
+    font-size: 2rem;
+    /* margin: 0; */
   }
 
   .section-01 .text-2 {
     padding: 10px;
     padding-top: 5px;
-    font-size: 1rem;
+    font-size: 1.8rem;
   }
 
   .section-01 p {
@@ -819,8 +900,9 @@ ul {
     font-size: 24px;
   }
 
-  .section-02 .text-3 {
-    /* font-size: 16px; */
+  .section-02 .text-2 {
+    font-size: 1.5rem;
+    text-align: left;
   }
 
   .section-04 #flowers {
@@ -897,7 +979,7 @@ ul {
     font-size: 16px;
   }
 
-  /* helpers */
+  /* HELPERS */
   [class*="col-"] {
     width: 100%;
   }
@@ -915,15 +997,15 @@ ul {
   }
 
   .text-0 {
-    font-size: 4rem;
+    font-size: 2.4rem;
   }
 
   .text-1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .text-2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -993,10 +1075,6 @@ ul {
 
 /* ! 455 MEDIA QUERY */
 @media (max-width: 455px) {
-  .cover__content .text-0 {
-    font-size: 40px;
-  }
-
   /* logo list */
   #chi-sono .grid {
     display: block;
