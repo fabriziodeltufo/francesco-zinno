@@ -572,7 +572,11 @@ ul {
 }
 
 .footer__socials li {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  /* border: 1px solid red; */
 }
 
 .footer__socials a {
@@ -581,6 +585,10 @@ ul {
 
 .footer__socials a:hover {
   color: grey;
+}
+
+.fa-instagram {
+  font-size: 25px !important;
 }
 
 #topButton {
